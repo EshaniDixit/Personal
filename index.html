@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!-- font awesome integration -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+
+      <link rel="stylesheet" href="./src/style.css" />
+      <link rel="stylesheet" href="./src/main.css" />
+
+      <title>ESHANI DIXIT</title>
+   </head>
+
+   <body>
+      <!-- Starts Header section here -->
+      <header class="header">
+         
+         <!-- Navbar for wider screens -->
+         <nav class="navbar">
+            <ul class="nav-links">
+               <li><a href="#home" class="activeNav">HOME</a></li>
+               <li><a href="#aboutMe">ABOUT</a></li>
+               <li><a href="#skills">SKILLS</a></li>
+               <li><a href="#journey">EXPERIENCE</a></li>
+               <li><a href="#projects">PROJECTS</a></li>
+               <li><a href="#contact">CONTACT</a></li>
+            </ul>
+         </nav>
+         <!-- toggle bars for responsive design -->
+         <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+         </div>
+         <!-- navigation links for responsive dropdown -->
+         <div class="dropdown-menu">
+            <ul class="nav-links links-dropdown">
+               <li><a href="#home" class="activeNav">HOME</a></li>
+               <li><a href="#aboutMe">ABOUT</a></li>
+               <li><a href="#skills">SKILLS</a></li>
+               <li><a href="#journey">EXPERIENCE</a></li>
+               <li><a href="#projects">PROJECTS</a></li>
+               <li><a href="#contact">CONTACT</a></li>
+            </ul>
+         </div>
+      </header>
+      <!-- Ends Header section here -->
+
+      <!-- Starts Main Section here -->
+      <main>
+         <!-- Starts hero section here -->
+         <section id="home">
+            <div class="home-banner flex-center">
+               <h2>Hello!</h2>
+               <h1>I'm ESHANI DIXIT</h1>
+               <h2 class="h2-green">A <span id="auto-type"></span></h2>
+               <p class="p-large">
+                  COMPUTER SCIENCE AND ENGINEERING STUDENT
+               </p>
+               <button class="btn btn-hero flex-center" id="resume">Download Resume</button>
+            </div>
+         </section>
+         <!-- Ends hero section here -->
+
+         <!-- Starts About me section here -->
+         <section id="aboutMe">
+            <div class="blank-height"></div>
+            <!-- heading for about me -->
+            <div class="heading-underline">
+               <h2 class="h2-underline">ABOUT ME</h2>
+            </div>
+            <div class="about-me">
+               <!-- content for about me -->
+               <div class="about-text flex-center">
+                  <p class="p-large p-dark">
+                     I am a pre final year student pursuing Bachelor of Technology (COMPUTER SCIENCE) from SRM Institute of Science and Technology. I am always ready to have new experiences, meet new people, learn new things and am highly passionate about coding and experimenting with it. I find the idea of creating value for people and impacting the world through my work gratifying and rewarding. <br>
+                     
+                  </p>
+               </div>
+               <!-- photo of mine -->
+               <div class="photo flex-center"> 
+                     <img
+                        src="./public/images/PROFILE.png"
+                        alt=""
+                        width="210px"
+                     />
+               </div>
+               <!-- personal details -->
+               <div class="info flex-center">
+                  <div class="info-list">
+                     <h4>About Me</h4>
+                     <ul>
+                        <li><span class="span-info">Name:</span>Eshani Dixit</li>
+                        <li><span class="span-info">Degree:</span>Bachleor of Technology</li>
+                        <li><span class="span-info">Address:</span>Uttar Pradesh, India</li>
+                        <li><span class="span-info">Nationality:</span>Indian</li>
+                        <li><span class="span-info">Email:</span>
+                           <a href="mailto:eshanidixit3@gmail.com">eshanidixit3@gmail.com</a>
+                        </li>
+                        <li><span class="span-info">Experience:</span>0-1 Years</li>
+                        <li><span class="span-info">Freelancer:</span>Available</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="blank-height-2"></div>
+         </section>
+         <!-- Ends About me section here -->
+
+         <!-- Starts skills section here -->
+         <section id="skills">
+            <div class="blank-height-2"></div>
+            <div class="heading-underline">
+               <h2 class="h2-underline" id="h2-skill">SKILLS</h2>
+            </div>
+            <div class="skills-container">
+            <!-- buttons for tab view -->
+               <div class="tab-buttons">
+                  <div class="tab-btn-border-responsive">
+                     <button class="tab-btn activeTab" id="btn-skill">Skills</button>
+                     <button class="tab-btn" id="btn-cert">Certification</button>
+                  </div>
+               </div>
+               <!-- content tab for tab view -->
+               <div class="tab-contents">
+                  <!-- skill contents starts -->
+                  <div id="tab-skill">
+                     <div class="tab-skills">
+                        <!-- skill html -->
+                        <div class="skill">
+                           <div class="skill-content">
+                              <p>JAVA</p>
+                              <p>94%</p>
+                           </div>
+                           <div class="progress-bar">
+                              <div id="html-bar" class="the-bar" style="width: 94%;"></div>
+                           </div>
+                        </div>
+                        <!-- skill css -->
+                        <div class="skill">
+                           <div class="skill-content">
+                              <p>JAVASCRIPT</p>
+                              <p>85%</p>
+                           </div>
+                           <div class="progress-bar">
+                              <div id="css-bar" class="the-bar" style="width: 85%;"></div>
+                           </div>
+                        </div>
+                        <!-- skill javascript -->
+                        <div class="skill">
+                           <div class="skill-content">
+                              <p>PYTHON</p>
+                              <p>75%</p>
+                           </div>
+                           <div class="progress-bar">
+                              <div id="js-bar" class="the-bar" style="width: 75%;"></div>
+                           </div>
+                        </div>
+                        <!-- skill tailwind -->
+                        <div class="skill">
+                           <div class="skill-content">
+                              <p>DATA STRUCTURES & ALGORITHMS</p>
+                              <p>85%</p>
+                           </div>
+                           <div class="progress-bar">
+                              <div id="tailwind-bar" class="the-bar" style="width: 85%;"></div>
+                           </div>
+                        </div>
+                        <!-- skill react -->
+                        <div class="skill">
+                           <div class="skill-content">
+                              <p>REACT JS</p>
+                              <p>60%</p>
+                           </div>
+                           <div class="progress-bar">
+                              <div id="react-bar" class="the-bar" style="width: 60%;"></div>
+                           </div>
+                        </div>
+                        <!-- skill java -->
+                        <div class="skill">
+                           <div class="skill-content">
+                              <p>HTML & CSS</p>
+                              <p>75%</p>
+                           </div>
+                           <div class="progress-bar">
+                              <div id="java-bar" class="the-bar" style="width: 75%;"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- skill contents ends -->
+
+                  <!-- certification contents starts -->
+                  <div id="tab-cert" style="display: none;">
+                     <div class="tab-certificate">
+                        <!-- certificate 1 -->
+                        <div class="certificate">
+                           <figure class="img-hover">
+                              <img src="./public/images/Screenshot 2024-08-12 234856.png" />
+                              <figcaption>
+                                 <div class="img-hover-text">
+                                    <h4>Coursera</h4>
+                                    <p class=".p-small">C Programming by Dartmouth.</p>
+                                    <a class="btn btn-img-hover a-img-hover" href="https://coursera.org/verify/TEZBH3CYPE5L" target="_blank">Verify</a>
+                                 </div>
+                              </figcaption>
+                           </figure>
+                        </div>
+                        <!-- certificate 2 -->
+                        <div class="certificate">
+                           <figure class="img-hover">
+                              <img src="./public/images/Security.png"/>
+                              <figcaption>
+                                 <div class="img-hover-text">
+                                    <h4>Coursera</h4>
+                                    <p class=".p-small">Security Principles by ISC.</p>
+                                    <a class="btn btn-img-hover a-img-hover" href="https://coursera.org/verify/7VZHZ6NBFB6F" target="_blank">Verify</a>
+                                 </div>
+                              </figcaption>
+                           </figure>
+                        </div>
+                        <!-- certificate 3 -->
+                        <div class="certificate">
+                           <figure class="img-hover">
+                              <img src="./public/images/Network.png"/>
+                              <figcaption>
+                                 <div class="img-hover-text">
+                                    <h4>Coursera</h4>
+                                    <p class=".p-small">Network Defense Essentials (NDE) by EC-Council.</p>
+                                    <a class="btn btn-img-hover a-img-hover" href="https://coursera.org/verify/ZDF97D52LZRT" target="_blank">Verify</a>
+                                 </div>
+                              </figcaption>
+                           </figure>
+                        </div>
+                        <div class="certificate">
+                           <figure class="img-hover">
+                              <img src="./public/images/CC.png"/>
+                              <figcaption>
+                                 <div class="img-hover-text">
+                                    <h4>Coursera</h4>
+                                    <p class=".p-small">Identifying Security Vulnerabilities in C/C++Programming by University of California, Davis.</p>
+                                    <a class="btn btn-img-hover a-img-hover" href="https://coursera.org/verify/3PRNVKF4QK2C" target="_blank">Verify</a>
+                                 </div>
+                              </figcaption>
+                           </figure>
+                        </div>
+                        <div class="certificate">
+                           <figure class="img-hover">
+                              <img src="./public/images/Ethical.png"/>
+                              <figcaption>
+                                 <div class="img-hover-text">
+                                    <h4>Coursera</h4>
+                                    <p class=".p-small">Ethical Hacking Essentials (EHE) by EC-Council.</p>
+                                    <a class="btn btn-img-hover a-img-hover" href="https://coursera.org/verify/P9RCA63BMMKF" target="_blank">Verify</a>
+                                 </div>
+                              </figcaption>
+                           </figure>
+                        </div>
+                        <div class="certificate">
+                           <figure class="img-hover">
+                              <img src="./public/images/Software.png"/>
+                              <figcaption>
+                                 <div class="img-hover-text">
+                                    <h4>Forage</h4>
+                                    <p class=".p-small">Software Engineering Virtual Experience Program by Goldman Sachs.</p>
+                                 </div>
+                              </figcaption>
+                           </figure>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- certification contents ends -->
+               </div>
+            </div>
+            <div class="blank-height-2"></div>
+         </section>
+         <!-- Ends skills section here -->
+
+         <!-- Starts Journey section here -->
+         <section id="journey">
+            <div class="blank-height-2"></div>
+            <div class="heading-underline">
+               <h2 class="h2-underline">RESUME</h2>
+            </div>
+            <div class="journey-container">
+               <!-- Experience starts here -->
+               <div class="experience-part education-part">
+                  <div class="journey-h2">
+                     <h2>Experience</h2>
+                  </div>
+                  <div class="education-details">
+                     <div class="education experience">
+                        <h4>Software Engineer Fellow</h4>
+                        <p class="p-green">Headstarter AI-Remote</p>
+                        <p class="p-timeline">Present</p>
+                        <p class="p-small">Build a Pantry Tracker with React and NextJS, use MUI and Firebase for the database, a Customer Support AI using NextJS. OpenAI, AWS EC2, AWS Lambda and an AI Rate my Professor website using RAG, OpenAI and Vectors<p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Education starts here -->
+               <div class="education-part">
+                  <div class="journey-h2">
+                     <h2>Education</h2>
+                  </div>
+                  <div class="education-details">
+                     <div class="education">
+                        <h4>Bachelor of Technology</h4>
+                        <p class="p-green">SRM Institute of Science and Technology</p>
+                        <p class="p-timeline">2022-2026</p>
+                        <p class="p-small">Field - Computer Science and Engineering<p>
+                     </div>
+                     <div class="education">
+                        <h4>School</h4>
+                        <p class="p-green">City Montessori School</p>
+                        <p class="p-timeline">2007-2022</p>
+                        <p class="p-small">High School and Intermediate<p></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="blank-height-2"></div>
+         </section>
+         <!-- Ends Journey section here -->
+         
+         <!-- Starts Projects section here -->
+         <section id="projects">
+            <div class="blank-height-2"></div>
+            <div class="heading-underline">
+               <h2 class="h2-underline">PROJECTS</h2>
+            </div>
+            <div class="project-container">
+               <!-- project 1 -  Weather -->
+               <div class="project">
+                  <figure class="img-hover">
+                     <img src="./public/images/weather.png"/>
+                     <figcaption>
+                        <div class="img-hover-text">
+                           <h4>Weather</h4>
+                           <p class=".p-small">Simple weather fetch by city name.</p>
+                           <button onclick="showPopup('popup-weather')"
+                           class="btn btn-img-hover flex-center">
+                              View</button>
+                           <!-- popup container code - weather app -->
+                           <div class="popup-box flex-center" id="popup-weather" style="display: none;">
+                              <div class="position-iframe">
+                                 <iframe src="./project-work/weather-app/weather.html" frameborder="0"></iframe>
+                                 <button class="close-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </figcaption>
+                  </figure>
+               </div>
+               <!-- project 2 -  Digital Clock -->
+               <div class="project">
+                  <figure class="img-hover">
+                     <img src="./public/images/clock.png"/>
+                     <figcaption>
+                        <div class="img-hover-text">
+                           <h4>Digital Clock</h4>
+                           <p class=".p-small">Digital clock with Dark and Light mode.</p>
+                           <button onclick="showPopup('popup-clock')" 
+                           class="btn btn-img-hover flex-center">View</button>
+                           <!-- popup container code - Digital Clock -->
+                           <div class="popup-box flex-center" id="popup-clock" style="display: none;">
+                              <div class="position-iframe">
+                                 <iframe src="./project-work/digital-clock/clock.html" frameborder="0"></iframe>
+                                 <button class="close-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </figcaption>
+                  </figure>
+               </div>
+               <!-- project 3 -  Calculator -->
+               <div class="project">
+                  <figure class="img-hover">
+                     <img src="./public/images/calculator.png"/>
+                     <figcaption>
+                        <div class="img-hover-text">
+                           <h4>Calculator</h4>
+                           <p class=".p-small">Simple calculator with arithmetic.</p>
+                           <button onclick="showPopup('popup-calculator')" 
+                           class="btn btn-img-hover flex-center">View</button>
+                           <!-- popup container code - Calculator -->
+                           <div class="popup-box flex-center" id="popup-calculator" style="display: none;">
+                              <div class="position-iframe">
+                                 <iframe src="./project-work/calculator/calculator.html" frameborder="0"></iframe>
+                                 <button class="close-popup">
+                                    <i class="fa-solid fa-xmark"></i>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </figcaption>
+                  </figure>
+               </div>
+               <!-- project 4 - Timer and Stopwatch -->
+               <div class="project">
+                  <figure class="img-hover">
+                     <img src="./public/images/timer-stopwatch.png"/>
+                     <figcaption>
+                        <div class="img-hover-text">
+                           <h4>Timer & Stopwatch</h4>
+                           <p class=".p-small">Timer and Stopwatch with basic functionality.</p>
+                           <div class="div-two-btn">
+                              <button onclick="" 
+                              class="btn btn-img-hover flex-center">View</button>
+                              <!-- popup container code - Timer and Stopwatch -->
+                              <div class="popup-box flex-center" id="popup-timer" style="display: none;">
+                                 <div class="position-iframe">
+                                    <iframe src="./project-work/timer/timer.html" frameborder="0"></iframe>
+                                    <button class="close-popup">
+                                       <i class="fa-solid fa-xmark"></i>
+                                    </button>
+                                 </div>
+                              </div>
+
+                              <button onclick="showPopup('popup-stopwatch')" 
+                              class="btn btn-img-hover flex-center">View</button>
+                              <!-- popup container code - weather app -->
+                              <div class="popup-box flex-center" id="popup-stopwatch" style="display: none;">
+                                 <div class="position-iframe">
+                                    <iframe src="./project-work/stopwatch/stopwatch.html" frameborder="0"></iframe>
+                                    <button class="close-popup">
+                                       <i class="fa-solid fa-xmark"></i>
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </figcaption>
+                  </figure>
+               </div>
+               <div class="project">
+                  <figure class="img-hover">
+                     <img src="./public/images/mood.png"/>
+                     <figcaption>
+                        <div class="img-hover-text">
+                           <h4>Mood Tracker</h4>
+                           <p class=".p-small">Simple tracker to track your daily mood and feelings</p>
+                           <a class="btn btn-img-hover flex-center a-img-hover" href="https://github.com/EshaniDixit/Mood-Tracker"target="_blank">View</a> 
+                        </div>
+                     </figcaption>
+                  </figure>
+               </div>
+               <div class="project">
+                  <figure class="img-hover">
+                     <img src="./public/images/quiz.png" style="height: 300px; width: 300px;"/>
+                     <figcaption>
+                        <div class="img-hover-text">
+                           <h4>Quiz Application</h4>
+                           <p class=".p-small">Simple, interactive Quiz application made with java</p>
+                           <a class="btn btn-img-hover flex-center a-img-hover" href="https://github.com/EshaniDixit/Quiz-Application"target="_blank">View</a> 
+                        </div>
+                     </figcaption>
+                  </figure>
+               </div>
+               <div class="project">
+                  <figure class="img-hover">
+                     <img src="./public/images/em.png"/>
+                     <figcaption>
+                        <div class="img-hover-text">
+                           <h4>Employee Management System</h4>
+                           <p class=".p-small">Simple software made with java to manage all employees of an organisation</p>
+                           <a class="btn btn-img-hover flex-center a-img-hover" href="https://github.com/EshaniDixit/Quiz-Application"target="_blank">View</a> 
+                        </div>
+                     </figcaption>
+                  </figure>
+               </div>
+            </div>
+            <div class="blank-height-2"></div>
+         </section>
+         <!-- Ends Projects section here -->
+
+         <!-- Starts Contact section here -->
+         <section id="contact">
+            <div class="blank-height-2"></div>
+            <div class="heading-underline">
+               <h2 class="h2-underline">CONTACT</h2>
+            </div>
+            <div class="contact-container">
+               <!-- Reach to us or address part -->
+               <div class="reach-to-us">
+                  <h4>Reach to Me</h4>
+                  <!-- address part: address  -->
+                  <div class="address">
+                     <div class="icon">
+                        <img src="./public/icons/location.svg" alt="Location Icon" />
+                     </div>
+                     <div class="locatn-ph-email">
+                        <p class="p-green">Address:</p>
+                        <p>Uttar Pradesh, India</p>
+                     </div>
+                  </div>
+                  <!-- address part: Phone number -->
+                  <!-- address part: email id -->
+                  <div class="address">
+                     <div class="icon">
+                        <img src="./public/icons/email.svg" alt="Email Icon" />
+                     </div>
+                     <div class="locatn-ph-email">
+                        <p class="p-green">Email:</p>
+                        <a href="mailto:eshanidixit3@gmail.com">eshanidixit3@gmail.com</a>
+                     </div>
+                  </div>
+                  <!-- address part: email id -->
+                  <div class="address">
+                     <div class="icon">
+                        <img src="./public/icons/social.svg" alt="Social Icons" />
+                     </div>
+                     <div class="locatn-ph-email">
+                        <p class="p-green">Social Networks:</p>
+                        <div class="social">
+                           <a href="https://github.com/EshaniDixit" target="_blank" class="flex-center"><i class="fa-brands fa-github"></i></a>
+                           <a href="https://www.linkedin.com/in/eshani-dixit/" target="_blank" class="flex-center"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Contact form part -->
+               <div class="get-in-touch">
+                  <h4>Get in Touch</h4>
+                  <div class="form">
+                     <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="3387fc48-9759-4b77-986f-2ca8e3f5f825">
+                        <input
+                           type="text"
+                           class="fill"
+                           name="Name"
+                           id="name"
+                           placeholder="Full Name"
+                           required
+                        />
+
+                        <input
+                           type="email"
+                           class="fill"
+                           name="Email"
+                           id="email"
+                           placeholder="Email"
+                           required
+                        />
+
+                        <input
+                           type="tel"
+                           class="fill"
+                           name="Phone"
+                           id="phone"
+                           placeholder="Phone"
+                           required
+                        />
+
+                        <textarea
+                           name="Message"
+                           id="message"
+                           class="fill msg"
+                           rows="4"
+                           maxlength="400"
+                           placeholder="Your message"
+                           required
+                        ></textarea>
+                        <div class="sending-msg">
+                           <button type="submit" class="btn flex-center" id="btn-form">Send</button>
+                           <p class="p-large" id="user-msg"></p>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="blank-height-2"></div>
+         </section>
+         <!-- Ends Contact section here -->
+
+      </main>
+      <!-- Ends Main Section here -->
+
+      <!-- Starts Footer Section here -->
+      <footer>
+         <div id="footer">
+            <div id="copyright">
+               <p class="p-small p-dark">
+                  © <span id="year"></span> Copyright: <a href="index.html">Eshani</a>
+               </p>
+            </div>
+         </div>
+      </footer>
+      <!-- Ends Footer Section here -->
+
+      <!-- cdn script for typing text animation -->
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script src="./src/app.js"></script>
+   </body>
+</html>
